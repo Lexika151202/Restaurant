@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Taste</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<div class="wrap">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-md d-flex justify-content-md-end">
+					<p class="mb-0">T2 - T6 / 9:00-21:00, T7 - CN / 10:00-20:00</p>
+					<div class="social-media">
+						<p class="mb-0 d-flex">
+							<a href="#" class="d-flex align-items-center justify-content-center"><span
+									class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+							<a href="#" class="d-flex align-items-center justify-content-center"><span
+									class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+							<a href="#" class="d-flex align-items-center justify-content-center"><span
+									class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+							<a href="#" class="d-flex align-items-center justify-content-center"><span
+									class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Taste.<span>tkw</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Thực đơn
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">Giới thiệu</a></li>
+					<li class="nav-item"><a href="chef.html" class="nav-link">Đầu bếp</a></li>
+					<li class="nav-item active"><a href="menu.html" class="nav-link">Thực đơn</a></li>
+					<li class="nav-item"><a href="reservation.php" class="nav-link">Đặt bàn</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Liên hệ</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-center">
+				<div class="col-md-9 ftco-animate text-center mb-5">
+					<h1 class="mb-2 bread">Thực đơn</h1>
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+									class="fa fa-chevron-right"></i></a></span> <span>Thực đơn <i
+								class="fa fa-chevron-right"></i></span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-7 text-center heading-section ftco-animate">
+					<span class="subheading">Đặc sản</span>
+					<h2 class="mb-4">Thực đơn của chúng tôi</h2>
+					<!-- <div class="search-box">
+						<input type="text" placeholder="Search for a dish..." id="searchDish">
+<button type="button" id="searchBtn">Search</button>
+<button type="button" id="resetBtn">Reset</button>  -->
+					<div class="search-container">
+						<input type="text" placeholder="Tìm kiếm món ăn...">
+						<button type="button" onclick="searchFood()">Tìm kiếm</button>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="menu-wrap">
+						<div class="heading-menu text-center ftco-animate">
+							<h3>Bữa sáng</h3>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu1">
+							<div class="menu-img img" style="background-image: url(images/breakfast-1.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bánh mì thịt</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Bột mì</span>, <span>Nước</span>, <span>Men</span>, <span>Thịt</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu2">
+							<div class="menu-img img" style="background-image: url(images/breakfast-2.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Cháo gà</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Gà</span>, <span>Gạo</span>, <span>Nước</span>, <span>Hành</span></p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/breakfast-3.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Phở</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt bò</span>, <span>Bánh phở</span>, <span>Hành</span>, <span>Gia vị</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu3">
+							<div class="menu-img img" style="background-image: url(images/breakfast-4.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bún bò Huế</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Bò</span>, <span>Bún</span>, <span>Gia vị</span>, <span>Hành</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu4">
+							<div class="menu-img img" style="background-image: url(images/breakfast-5.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Cơm rang</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cơm</span>, <span>Thịt</span>, <span>Trứng</span>, <span>Rau củ</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu5">
+							<div class="menu-img img" style="background-image: url(images/breakfast-6.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bún chả</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt</span>, <span>Bún</span>, <span>Rau</span>, <span>Nước chấm</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu6">
+							<div class="menu-img img" style="background-image: url(images/breakfast-7.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bánh cuốn</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Bột gạo</span>, <span>Thịt</span>, <span>Nấm</span>, <span>Mộc nhĩ</span></p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/breakfast-8.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Gỏi cuốn</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Tôm</span>, <span>Bún</span>, <span>Rau</span>, <span>Nước chấm</span></p>
+							</div>
+						</div>
+						<span class="flat flaticon-bread" style="left: 0;"></span>
+						<span class="flat flaticon-breakfast" style="right: 0;"></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="menu-wrap">
+						<div class="heading-menu text-center ftco-animate">
+							<h3>Bữa trưa</h3>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu7">
+							<div class="menu-img img" style="background-image: url(images/lunch-1.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Gà kho gừng</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Gà</span>, <span>Gừng</span>, <span>Nước mắm</span>, <span>Gia vị</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu8">
+							<div class="menu-img img" style="background-image: url(images/lunch-2.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Cá kho tộ</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cá</span>, <span>Nước mắm</span>, <span>Gia vị</span>, <span>Rau</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu9">
+							<div class="menu-img img" style="background-image: url(images/lunch-3.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Canh chua</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cá</span>, <span>Rau muống</span>, <span>Cà chua</span>, <span>Gia vị</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu10">
+							<div class="menu-img img" style="background-image: url(images/lunch-4.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Thịt kho tàu</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt heo</span>, <span>Nước mắm</span>, <span>Đường</span>, <span>Rau</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu11">
+							<div class="menu-img img" style="background-image: url(images/lunch-5.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Tôm rang muối</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Tôm</span>, <span>Muối</span>, <span>Tỏi</span>, <span>Gia vị</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu12">
+							<div class="menu-img img" style="background-image: url(images/lunch-6.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Lẩu thái</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt heo</span>, <span>Hải sản</span>, <span>Rau củ</span>, <span>Xương</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu13">
+							<div class="menu-img img" style="background-image: url(images/lunch-7.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Súp cua</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cua</span>, <span>Sữa tươi</span>, <span>Bột ngô</span>, <span>Gia vị</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/lunch-8.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bún riêu</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cua</span>, <span>Bún</span>, <span>Dọc mùng</span>, <span>Rau</span></p>
+							</div>
+						</div>
+						<span class="flat flaticon-pizza" style="left: 0;"></span>
+						<span class="flat flaticon-chicken" style="right: 0;"></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="menu-wrap">
+						<div class="heading-menu text-center ftco-animate">
+							<h3>Bữa tối</h3>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu14">
+							<div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Chả giò</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt heo</span>, <span>Bún</span>, <span>Rau củ</span>, <span>Gia vị</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu15">
+							<div class="menu-img img" style="background-image: url(images/dinner-2.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bò kho</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt bò</span>, <span>Cà rốt</span>, <span>Khoai tây</span>, <span>Rau</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu16">
+							<div class="menu-img img" style="background-image: url(images/dinner-3.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Mì Quảng</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Tôm</span>, <span>Thịt</span>, <span>Mì Quảng</span>, <span>Rau</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu17">
+							<div class="menu-img img" style="background-image: url(images/dinner-4.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bò lúc lắc</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt bò</span>, <span>Rau củ</span>, <span>Sốt</span>, <span>Gia vị</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu18">
+							<div class="menu-img img" style="background-image: url(images/dinner-5.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Xôi chiên</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Gấc</span>, <span>Nếp</span>, <span>Gia vị</span>, <span>Thịt</span></p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/dinner-6.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Bít tết</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Thịt</span>, <span>Rau</span>, <span>Gia vị</span>, <span>Nước sốt</span></p>
+							</div>
+						</div>
+						<span class="flat flaticon-omelette" style="left: 0;"></span>
+						<span class="flat flaticon-burger" style="right: 0;"></span>
+					</div>
+				</div>
+
+				<!--  -->
+				<div class="col-md-6 col-lg-4">
+					<div class="menu-wrap">
+						<div class="heading-menu text-center ftco-animate">
+							<h3>Món tráng miệng</h3>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu19">
+							<div class="menu-img img" style="background-image: url(images/dessert-1.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Kem dâu</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Dâu tây</span>, <span>Kem whipping</span>, <span>Đường</span>,
+									<span>Vani</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu20">
+							<div class="menu-img img" style="background-image: url(images/dessert-2.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Kem socola</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Socola</span>, <span>Kem whipping</span>, <span>Đường</span>, <span>Vani</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu21">
+							<div class="menu-img img" style="background-image: url(images/dessert-3.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Kem vani</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Kem whipping</span>, <span>Đường</span>, <span>Trứng</span>, <span>Vani</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu22">
+							<div class="menu-img img" style="background-image: url(images/dessert-4.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Kem chuối</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Chuối</span>, <span>Kem whipping</span>, <span>Đường</span>, <span>Vani</span>
+								</p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/dessert-5.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Kem tiramisu</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Kem phomai</span>, <span>Bánh bông lan</span>, <span>Cafe</span>,
+									<span>Socola</span></p>
+							</div>
+						</div>
+						<span class="flat flaticon-cupcake" style="left: 0;"></span>
+						<span class="flat flaticon-ice-cream" style="right: 0;"></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="menu-wrap">
+						<div class="heading-menu text-center ftco-animate">
+							<h3>Rượu</h3>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu23">
+							<div class="menu-img img" style="background-image: url(images/wine-1.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu vang đỏ</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Nho đen</span>, <span>Men</span>, <span>Đường</span>, <span>Nước</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu24">
+							<div class="menu-img img" style="background-image: url(images/wine-2.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu vang trắng</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Nho trắng</span>, <span>Men</span>, <span>Đường</span>, <span>Nước</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu25">
+							<div class="menu-img img" style="background-image: url(images/wine-3.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu rum</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Mía</span>, <span>Men</span>, <span>Nước</span>, <span>Đường</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu26">
+							<div class="menu-img img" style="background-image: url(images/wine-4.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu whisky</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Lúa mì</span>, <span>Nước</span>, <span>Men</span>, <span>Ngô</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu27">
+							<div class="menu-img img" style="background-image: url(images/wine-5.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu brandy</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Nho</span>, <span>Men</span>, <span>Nước</span>, <span>Đường</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu28">
+							<div class="menu-img img" style="background-image: url(images/wine-6.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu sake</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Gạo</span>, <span>Nước</span>, <span>Men</span>, <span>Rượu mạch nha</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu29">
+							<div class="menu-img img" style="background-image: url(images/wine-7.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu sherry</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Nho</span>, <span>Men</span>, <span>Đường</span>, <span>Nước</span></p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/wine-8.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Rượu gin</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Hạt diều</span>, <span>Hoa quả</span>, <span>Thảo mộc</span>, <span>Men</span>
+								</p>
+							</div>
+						</div>
+						<span class="flat flaticon-wine" style="left: 0;"></span>
+						<span class="flat flaticon-wine-1" style="right: 0;"></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="menu-wrap">
+						<div class="heading-menu text-center ftco-animate">
+							<h3>Đồ uống &amp; Trà</h3>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu30">
+							<div class="menu-img img" style="background-image: url(images/drink-1.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước cam</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cam</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu31">
+							<div class="menu-img img" style="background-image: url(images/drink-2.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước chanh</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Chanh</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu32">
+							<div class="menu-img img" style="background-image: url(images/drink-3.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước dừa</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Dừa tươi</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu33">
+							<div class="menu-img img" style="background-image: url(images/drink-4.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước ép cà rốt</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Cà rốt</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu34">
+							<div class="menu-img img" style="background-image: url(images/drink-5.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước mơ</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Mơ</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<div class="menus d-flex ftco-animate" id="menu35">
+							<div class="menu-img img" style="background-image: url(images/drink-6.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước ép nho</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Nho</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<div class="menus border-bottom-0 d-flex ftco-animate">
+							<div class="menu-img img" style="background-image: url(images/drink-7.jpg);"></div>
+							<div class="text">
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>Nước ép táo</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">$29</span>
+									</div>
+								</div>
+								<p><span>Táo</span>, <span>Đường</span>, <span>Nước</span>, <span>Đá</span></p>
+							</div>
+						</div>
+						<span class="flat flaticon-wine" style="left: 0;"></span>
+						<span class="flat flaticon-wine-1" style="right: 0;"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="ftco-section ftco-wrap-about bg-primary ftco-no-pb ftco-no-pt">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-sm-12 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary">
+					<form action="#" class="appointment-form">
+						<h3 class="mb-3">Đặt bàn của bạn</h3>
+						<div class="row justify-content-center">
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="name" class="form-control" placeholder="Tên">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="Email">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Điện thoại">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<div class="input-wrap">
+										<div class="icon"><span class="fa fa-calendar"></span></div>
+										<input type="text" class="form-control book_date" placeholder="Đăng kí vào">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<div class="input-wrap">
+										<div class="icon"><span class="fa fa-clock-o"></span></div>
+										<input type="text" class="form-control book_time" placeholder="Thời gian">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<div class="form-field">
+										<div class="select-wrap">
+											<div class="icon"><span class="fa fa-chevron-down"></span></div>
+											<select name="" id="" class="form-control">
+												<option value="">Số bàn</option>
+												<option value="">1</option>
+												<option value="">2</option>
+												<option value="">3</option>
+												<option value="">4</option>
+												<option value="">5</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<input type="submit" value="Đặt bàn" class="btn btn-white py-3 px-4">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ftco-footer ftco-no-pb ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Taste.tkw</h2>
+						<p>Nhà hàng tự hào về việc sử dụng các nguyên liệu tươi ngon có nguồn gốc địa phương trong tất
+							cả các món ăn của mình và các đầu bếp có tay nghề cao trong việc tạo ra sự kết hợp hương vị
+							thơm ngon và sáng tạo.</p>
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Giờ mở cửa</h2>
+						<ul class="list-unstyled open-hours">
+							<li class="d-flex"><span>Thứ hai</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Thứ ba</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Thứ tư</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Thứ năm</span><span>9:00 - 24:00</span></li>
+							<li class="d-flex"><span>Thứ sáu</span><span>9:00 - 02:00</span></li>
+							<li class="d-flex"><span>Thứ bảy</span><span>9:00 - 02:00</span></li>
+							<li class="d-flex"><span>Chủ nhật</span><span> Đóng cửa</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Instagram</h2>
+						<div class="thumb d-sm-flex">
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+							</a>
+						</div>
+						<div class="thumb d-flex">
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+							</a>
+							<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Bản tin</h2>
+						<p>Bạn có thể nhận được các tin tức bằng cách gửi email cho chúng tôi.</p>
+						<form action="#" class="subscribe-form">
+							<div class="form-group">
+								<input type="text" class="form-control mb-2 text-center"
+									placeholder="Nhập địa chỉ email">
+								<input type="submit" value="Đăng kí" class="form-control submit px-3">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid px-0 bg-primary py-3">
+			<div class="row no-gutters">
+				<div class="col-md-12 text-center">
+
+					<p class="mb-0">
+						Thời gian &copy;
+						<script>document.write(new Date().getFullYear());</script> Lời cảm ơn | Đến những khách hàng đã
+						và đang quan tâm đến <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#"
+							target="_blank">Taste</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		// 			function searchFood() {
+		//   // Get the user's input from the search bar
+		//   var input = document.querySelector(".search-container input").value;
+
+		//   // Get all the menus on the page
+		//   var menus = document.querySelectorAll(".menu-wrap");
+
+		//   // Loop through all the menus to find the ones that match the user's input
+		//   for (var i = 0; i < menus.length; i++) {
+		//     // Get the text content of the menu
+		//     var menuText = menus[i].textContent.toLowerCase();
+
+		//     // If the menu contains the user's input, display the menu items
+		//     if (menuText.includes(input.toLowerCase())) {
+		//       // Show each menu item in the current menu
+		//       var menuItems = menus[i].querySelectorAll(".menus.d-flex.ftco-animate");
+		//       for (var j = 0; j < menuItems.length; j++) {
+		//         menuItems[j].style.display = "block";
+		//       }
+		//       // Show the menu
+		//       menus[i].style.display = "block";
+		//     }
+		//     // Otherwise, hide the menu and its items
+		//     else {
+		//       // Hide each menu item in the current menu
+		//       var menuItems = menus[i].querySelectorAll(".menus.d-flex.ftco-animate");
+		//       for (var j = 0; j < menuItems.length; j++) {
+		//         menuItems[j].style.display = "none";
+		//       }
+		//       // Hide the menu
+		//       menus[i].style.display = "none";
+		//     }
+		//   }
+		// }
+
+		function searchFood() {
+			// Get the user's input from the search bar
+			var input = document.querySelector(".search-container input").value;
+
+			// Get all the menus on the page
+			var menus = document.querySelectorAll(".menu-wrap");
+
+			// Loop through all the menus to find the ones that match the user's input
+			for (var i = 0; i < menus.length; i++) {
+				// Get the text content of the menu
+				var menuText = menus[i].textContent.toLowerCase();
+
+				// If the menu contains the user's input, display the menu
+				if (menuText.includes(input.toLowerCase())) {
+					menus[i].style.display = "block";
+				}
+				// Otherwise, hide the menu
+				else {
+					menus[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+	<!-- <script>
+			// Get the search button and input field
+			const searchBtn = document.getElementById("searchBtn");
+			const searchInput = document.getElementById("searchDish");
+		  
+			// Get all the menu items
+			const menuItems = document.querySelectorAll(".menus");
+		  
+			// Add event listener to the search button
+			searchBtn.addEventListener("click", () => {
+			  // Get the search query from the input field
+			  const searchQuery = searchInput.value.toLowerCase();
+		  
+			  // Loop through all the menu items
+			  menuItems.forEach((item) => {
+				// Get the dish name from the menu item
+				const dishName = item.querySelector("h3").textContent.toLowerCase();
+		  
+				// Check if the search query matches the dish name
+				if (dishName.includes(searchQuery)) {
+				  // Show the menu item if it matches the search query
+				  item.style.display = "flex";
+				} else {
+				  // Hide the menu item if it does not match the search query
+				  item.style.display = "none";
+				}
+			  });
+			});
+		  
+			// Add event listener to the reset button
+			resetBtn.addEventListener("click", () => {
+			  // Clear the search input field
+			  searchInput.value = "";
+		  
+			  // Show all the menu items
+			  menuItems.forEach((item) => {
+				item.style.display = "flex";
+			  });
+			
+			});
+			
+		  </script> -->
+
+
+</body>
+
+</html>
